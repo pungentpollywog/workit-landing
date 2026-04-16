@@ -15,11 +15,14 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 - Build out this landing page and get it looking as close to the design as possible. Refer to the [style-guide](./style-guide.png) to know what fonts and colors to use.
 - Use CSS Flexbox. (Note: you can nest flex containers.)
 - Use CSS custom properties (aka CSS Variables).
+- Create a typography.css file for all of the font related styling (i.e. defining font faces, assigning font families, and font sizes.)
 
-Your users should be able to:
+- Your users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+  - View the optimal layout for the interface depending on their device's screen size
+  - See hover and focus states for all interactive elements on the page
+
+### Media query breakpoints
 
 |Screen size|breakpoint|
 |-|-|
@@ -45,5 +48,9 @@ The design system in the design file will give you more information about the va
 2. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 3. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 4. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+
+## Tips 
+
+- Check out this [article on anchor positioning](https://css-tricks.com/css-anchor-positioning-guide/). It may come in handy. 
 
 **Have fun building!** 🚀
