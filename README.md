@@ -12,7 +12,7 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 
 ## Requirements
 
-- Build out this landing page and get it looking as close to the design as possible. Refer to the [style-guide](./style-guide.png) to know what fonts and colors to use.
+- Build out this landing page and get it looking as close to the design as possible. See the mockups in the **design/** folder. Refer to the [style-guide](./style-guide.png) to know what fonts and colors to use.
 - Use CSS Flexbox. (Note: you can nest flex containers.)
 - Use CSS custom properties (aka CSS Variables) for all of the color values (e.g. `--primary`) and any other values that make sense (e.g. `--side-padding`).
 - Create a **typography.css** file for all of the font related styling (i.e. defining font faces, assigning font families, and font sizes.)
