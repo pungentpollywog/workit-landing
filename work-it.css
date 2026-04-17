@@ -4,29 +4,36 @@
   --primary100: #fcf8ff;
   --lightest: #ffffff;
   --accent: #44ffa1;
+  --side-padding: 8rem;
 }
 
 body {
   margin: 0;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+header {
+  background-color: var(--primary100);
+  color: var(--lightest);
+
+  .clipped-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    clip-path: ellipse(120% 100% at 50% 0%);
+    background-color: var(--primary900);
+
+    position: relative;
+    padding-bottom: 15%;
+    anchor-name: --hero-anchor;
+  }
 }
 
-header {
+header nav {
+  padding: 4rem var(--side-padding) 0;
   display: flex;
-  flex-direction: column;
-  align-self: stretch;
-  align-items: center;
+  justify-content: space-between;
   background-color: var(--primary900);
-  color: var(--lightest);
-  clip-path: ellipse(120% 100% at 50% 0%);
-  position: relative;
-  padding-bottom: 15%;
-  anchor-name: --hero-anchor;
 }
 
 header button {
@@ -41,6 +48,11 @@ h1 {
 .facts {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
+  background-color: var(--primary100);
+  padding: 25% var(--side-padding) 10%;
+  margin-bottom: 15%;
+  clip-path: ellipse(120% 100% at 50% 0%);
 }
 
 .facts article {
@@ -63,15 +75,62 @@ article p:first-child {
 }
 
 article p:last-child {
-  width: 32ch;
+  width: 33ch;
   text-align: center;
 }
 
 img.hero {
-    width: 80vw;
-    max-width: 710px;
-    position: absolute;
-    position-anchor: --hero-anchor;
-    position-area: bottom center;
-    transform: translateY(-50%);
+  width: 80vw;
+  max-width: 710px;
+  position: absolute;
+  position-anchor: --hero-anchor;
+  position-area: bottom center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.cta {
+  background-color: var(--lightest);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 var(--side-padding);
+}
+
+.cta article {
+  background-color: var(--primary900);
+  color: var(--lightest);
+  max-width: 37rem;
+  padding: 1rem 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 0;
+  anchor-name: --book-demo-cta;
+}
+
+.cta img {
+  max-width: 25rem;
+  position: absolute;
+  position-anchor: --book-demo-cta;
+  position-area: top left;
+  transform: translate(20%, 70%);
+}
+
+footer {
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+  nav {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+button {
+  border: none;
+  padding: 1rem 2rem;
+  background-color: var(--accent);
 }
