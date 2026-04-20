@@ -29,7 +29,7 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 |Screen size|breakpoint|
 |-|-|
 |desktop| width > 768px |
-|tablet| 375px > width >= 768px | 
+|tablet| 375px < width <= 768px | 
 |mobile| width <= 375px |
 
 Note: checkout this [article on media queries](media-query-range-syntax.pdf). 

@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Fraunces;
   src: url("./assets/fonts/fraunces/Fraunces-VariableFont.ttf");
@@ -11,12 +12,12 @@
 body, button {
   font-family: Manrope, Arial, Helvetica, sans-serif;
   font-size: 18px;
+  line-height: 180%;
 } 
 
 button {
   font-weight: bold;
 }
-
 
 h1, h2, h3, .numeral {
   font-family: Fraunces, 'Times New Roman', Times, serif;
@@ -24,28 +25,50 @@ h1, h2, h3, .numeral {
 
 h1 {
   font-size: 80px;
+  line-height: 100%;
 }
 
 h2 {
   font-size: 56px;
+  line-height: 120%;
 }
 
 h3 {
   font-size: 32px;
+  line-height: 120%;
+}
+
+h5 {
+  line-height: 150%;
 }
 
 .numeral {
   font-size: 24px;
 }
 
-@media (375px > width >= 768px) {
-  body {
+@media (375px < width <= 768px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+} 
+
+@media (width <= 375px) {
+  body, button {
     font-size: 16px;
   }
-}
-
-@media (width <= 375px ) {
-  button {
-    font-size: 16px;
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
   }
 }
