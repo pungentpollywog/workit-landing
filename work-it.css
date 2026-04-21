@@ -92,7 +92,7 @@ article p:last-child {
 }
 
 img.hero {
-  width: 80vw;
+  width: 75vw;
   max-width: 710px;
   position: absolute;
   position-anchor: --hero-anchor;
@@ -129,7 +129,7 @@ img.hero {
 }
 
 .cta img {
-  width: clamp(18rem, 100%, 42rem);
+  width: clamp(14rem, 100%, 42rem);
   margin-left: var(--side-padding);
 }
 
