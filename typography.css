@@ -1,25 +1,28 @@
-
 @font-face {
   font-family: Fraunces;
-  src: url("./assets/fonts/fraunces/Fraunces-VariableFont.ttf");
+  src: url('./assets/fonts/fraunces/Fraunces-VariableFont.ttf');
 }
 
 @font-face {
   font-family: Manrope;
-  src: url("./assets/fonts/manrope/Manrope-VariableFont.ttf");
+  src: url('./assets/fonts/manrope/Manrope-VariableFont.ttf');
 }
 
-body, button {
+body,
+button {
   font-family: Manrope, Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 180%;
-} 
+}
 
 button {
   font-weight: bold;
 }
 
-h1, h2, h3, .numeral {
+h1,
+h2,
+h3,
+.numeral {
   font-family: Fraunces, 'Times New Roman', Times, serif;
 }
 
@@ -47,19 +50,25 @@ h5 {
 }
 
 @media (375px < width <= 768px) {
+  body {
+    font-size: 16px;
+  }
   h1 {
     font-size: 60px;
   }
   h2 {
     font-size: 48px;
+    letter-spacing: -2px;
+    font-weight: 400;
   }
   h3 {
     font-size: 32px;
   }
-} 
+}
 
 @media (width <= 375px) {
-  body, button {
+  body,
+  button {
     font-size: 16px;
   }
   h1 {
