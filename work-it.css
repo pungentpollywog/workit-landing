@@ -82,7 +82,7 @@ img.hero {
     align-items: center;
   }
 
-  article h3 {
+  article .feature {
     text-align: center;
   }
 
@@ -99,7 +99,6 @@ img.hero {
   article p:last-child {
     max-width: 33ch;
     min-width: 27ch;
-    text-align: center;
     letter-spacing: 0;
   }
 }
@@ -169,15 +168,16 @@ button {
 
     article {
       flex-direction: row;
-    }
-    .feature {
-      margin-left: 3rem;
+
+      .feature {
+        margin-left: 3rem;
+        text-align: left;
+      }
     }
 
     article p:last-child {
       width: auto;
       max-width: none;
-      text-align: left;
     }
   }
 }
@@ -189,6 +189,7 @@ button {
   .features {
     flex-direction: column;
     article p:last-child {
+      max-width: none;
       min-width: 0;
     }
   }
@@ -226,10 +227,6 @@ button {
     text-align: center;
     align-items: center;
 
-    h2 {
-      letter-spacing: -2px;
-      font-weight: 400;
-    }
     p {
       font-weight: 300;
     }
