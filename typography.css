@@ -15,6 +15,10 @@ button {
   line-height: 180%;
 }
 
+body {
+  letter-spacing: -1px;
+}
+
 button {
   font-weight: bold;
 }
@@ -24,6 +28,8 @@ h2,
 h3,
 .numeral {
   font-family: Fraunces, 'Times New Roman', Times, serif;
+  letter-spacing: -2px;
+  font-weight: 400;
 }
 
 h1 {
@@ -50,16 +56,11 @@ h5 {
 }
 
 @media (375px < width <= 768px) {
-  body {
-    font-size: 16px;
-  }
   h1 {
     font-size: 60px;
   }
   h2 {
     font-size: 48px;
-    letter-spacing: -2px;
-    font-weight: 400;
   }
   h3 {
     font-size: 32px;
