@@ -108,8 +108,6 @@ img.hero {
 
   .founder {
     align-self: flex-start;
-    display: flex;
-    justify-content: flex-end;
   }
 }
 
@@ -123,14 +121,12 @@ img.hero {
   flex-direction: column;
   align-items: flex-start;
 
-  transform: translateX(-5rem);
-  margin-top: 11rem;
-  margin-right: -5rem;
+  margin-top: 9rem;
+  margin-left: -5rem;
 }
 
 .cta img {
   width: clamp(14rem, 100%, 42rem);
-  margin-left: var(--side-padding);
 }
 
 footer {
@@ -169,7 +165,7 @@ button {
 }
 
 @media screen and (width <= 640px) {
-    :root {
+  :root {
     --side-padding: 1rem;
   }
 
@@ -178,15 +174,15 @@ button {
   }
   .cta article {
     padding: 1rem 2rem 2rem;
-    transform: translateX(0);
     margin: 0;
   }
   .cta .founder {
-    transform: translateY(3.5rem);
     margin: auto var(--side-padding);
     img {
       margin: 0;
+      position: relative;
+      top: 5rem;
+      z-index: -1;
     }
   }
-
 }
