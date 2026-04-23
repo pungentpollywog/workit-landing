@@ -4,7 +4,7 @@
   --primary100: #fcf8ff;
   --lightest: #ffffff;
   --accent: #44ffa1;
-  --side-padding: 8rem;
+  --side-padding: 8%;
 }
 
 body {
@@ -159,10 +159,6 @@ button {
 }
 
 @media screen and (640px < width <= 1024px) {
-  :root {
-    --side-padding: 5rem;
-  }
-
   .features {
     flex-direction: column;
 
@@ -200,10 +196,6 @@ button {
 }
 
 @media screen and (640px < width <= 768px) {
-  :root {
-    --side-padding: 3rem;
-  }
-
   .cta article {
     padding: 1rem 3rem 3rem;
     p {
@@ -213,10 +205,6 @@ button {
 }
 
 @media screen and (width <= 640px) {
-  :root {
-    --side-padding: 1rem;
-  }
-
   .cta {
     flex-direction: column;
   }
