@@ -34,6 +34,9 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 
 Note: checkout this [article on media queries](media-query-range-syntax.pdf). 
 
+## Figma design
+https://www.figma.com/design/KgwHgNfIaa79aolHFED2nb/workit-landing-page 
+
 ## Where to find everything
 
 Your task is to build out the project to the design file provided. 
